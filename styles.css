@@ -31,7 +31,6 @@ body {
 .nav {
     background-color: rgb(21, 41, 76);
     padding: 10px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nav ul {
@@ -43,7 +42,6 @@ body {
     padding: 0 15px;
 }
 
-
 .nav ul li {
     margin-right: 20px;
 }
@@ -54,14 +52,10 @@ body {
     font-size: 14px;
 }
 
-.nav ul li a:hover {
+.nav li a:hover {
+    background-color: #555;
     color: white;
-    text-decoration: none;
-    font-size: 14px;
-    background-color: #3d3d3d;
-    border: #666 1px solid;
 }
-
 
 
 .banner-content {
@@ -131,6 +125,12 @@ body {
 
 .product-title {
     color: #000;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.product-title:hover {
+    color: #ee0a0a;
     font-weight: bold;
     padding: 20px;
 }
